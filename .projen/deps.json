@@ -1,7 +1,12 @@
 {
   "dependencies": [
     {
-      "name": "@stylistic/eslint-plugin",
+      "name": "@aws-cdk/assert",
+      "version": "^2.18",
+      "type": "build"
+    },
+    {
+      "name": "@biomejs/biome",
       "version": "^2",
       "type": "build"
     },
@@ -14,31 +19,8 @@
       "type": "build"
     },
     {
-      "name": "@typescript-eslint/eslint-plugin",
-      "version": "^8",
-      "type": "build"
-    },
-    {
-      "name": "@typescript-eslint/parser",
-      "version": "^8",
-      "type": "build"
-    },
-    {
       "name": "commit-and-tag-version",
       "version": "^12",
-      "type": "build"
-    },
-    {
-      "name": "eslint-import-resolver-typescript",
-      "type": "build"
-    },
-    {
-      "name": "eslint-plugin-import",
-      "type": "build"
-    },
-    {
-      "name": "eslint",
-      "version": "^9",
       "type": "build"
     },
     {
@@ -91,7 +73,11 @@
     },
     {
       "name": "aws-cdk-lib",
-      "version": "^2.1.0",
+      "version": "^2.156.0",
+      "type": "peer"
+    },
+    {
+      "name": "cdk-nag",
       "type": "peer"
     },
     {

@@ -1,10 +1,12 @@
 {
-  "name": "cdk-utils",
+  "name": "@serverless-guru/cdk-utils",
+  "description": "A collection of opinionated utilities for AWS CDK projects, including custom constructs and CDK-Nag rules.",
   "repository": {
     "type": "git",
     "url": "https://github.com/serverless-guru/cdk-utils.git"
   },
   "scripts": {
+    "biome": "npx projen biome",
     "build": "npx projen build",
     "bump": "npx projen bump",
     "clobber": "npx projen clobber",
@@ -13,38 +15,32 @@
     "default": "npx projen default",
     "docgen": "npx projen docgen",
     "eject": "npx projen eject",
-    "eslint": "npx projen eslint",
     "package": "npx projen package",
     "package-all": "npx projen package-all",
     "package:js": "npx projen package:js",
     "post-compile": "npx projen post-compile",
-    "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
     "release": "npx projen release",
     "test": "npx projen test",
     "test:watch": "npx projen test:watch",
     "unbump": "npx projen unbump",
-    "upgrade": "npx projen upgrade",
     "watch": "npx projen watch",
     "projen": "npx projen"
   },
   "author": {
-    "name": "Lorenzo Hidalgo Gadea",
-    "email": "lorenzohidalgogadea@gmail.com",
-    "organization": false
+    "name": "Serverless Guru",
+    "url": "https://www.serverlessguru.com/",
+    "organization": true
   },
   "devDependencies": {
-    "@stylistic/eslint-plugin": "^2",
+    "@aws-cdk/assert": "^2.18",
+    "@biomejs/biome": "^2",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.14",
-    "@typescript-eslint/eslint-plugin": "^8",
-    "@typescript-eslint/parser": "^8",
-    "aws-cdk-lib": "2.1.0",
+    "aws-cdk-lib": "2.156.0",
+    "cdk-nag": "2.36.38",
     "commit-and-tag-version": "^12",
     "constructs": "10.0.5",
-    "eslint": "^9",
-    "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-import": "^2.32.0",
     "jest": "^30.0.4",
     "jest-junit": "^16",
     "jsii": "~5.8.0",
@@ -58,17 +54,18 @@
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.1.0",
+    "aws-cdk-lib": "^2.156.0",
+    "cdk-nag": "^2.36.38",
     "constructs": "^10.0.5"
   },
   "keywords": [
-    "cdk"
+    "aws",
+    "cdk",
+    "cdk-nag",
+    "constructs"
   ],
   "main": "lib/index.js",
   "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "public"
-  },
   "version": "0.0.0",
   "jest": {
     "coverageProvider": "v8",
