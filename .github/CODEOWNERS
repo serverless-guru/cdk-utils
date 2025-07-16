@@ -10,3 +10,12 @@
 
 # These owners will be the default owners for everything in the repo.
 * @Lorenzohidalgo @ServerlessSam
+
+# Owners of the .github configurations
+/.github/ @Lorenzohidalgo @ServerlessSam
+
+# Owners for the constructs
+/src/constructs/ @ServerlessSam
+
+# Owners for the rules and packs
+/src/rules/ @Lorenzohidalgo
