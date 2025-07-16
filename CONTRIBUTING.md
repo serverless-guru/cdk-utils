@@ -79,6 +79,24 @@ Install dependencies
 
 Send us a [pull request](https://help.github.com/articles/creating-a-pull-request/), answering any default questions in the pull request interface. Pay attention to any automated CI failures reported in the pull request, and stay involved in the conversation.
 
+### Step 6: Update the Contributors List
+
+> [!NOTE]
+> This step is only required for the first contribution of each type (f.e.: Code, docs, bugs, ...)
+
+Once your pull request is merged, add a comment on the initial issue asking the `@all-contributors` bot to add you to the list.
+
+<details>
+<summary>Comment on Issue asking @all-contributors to add a contributor:</summary>
+
+```markdown
+@all-contributors please add @<username> for <contributions>
+```
+
+</details>
+
+Please refer the official documentation for additional details on [how to use the bot](https://allcontributors.org/docs/en/bot/usage) or the available [contribution types](https://allcontributors.org/docs/en/emoji-key).
+
 ## Finding contributions to work on
 
 Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any `help wanted` or `good first issue` labled issues is a great place to start.
