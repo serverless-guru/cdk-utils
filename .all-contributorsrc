@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "Lorenzohidalgo",
+      "name": "Lorenzo Hidalgo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22448611?v=4",
+      "profile": "https://www.lhidalgo.dev",
+      "contributions": [
+        "doc",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "cdk-utils",
+  "projectOwner": "serverless-guru"
+}
