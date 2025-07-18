@@ -3,7 +3,7 @@ import { Tags, Template } from "aws-cdk-lib/assertions";
 import {
 	CONSTRUCT_NAME,
 	SqsWithDlq,
-} from "../../../src/constructs/sqs-with-dlq/lib";
+} from "../../../src/constructs/sqs-with-dlq";
 
 describe("SqsWithDlq", () => {
 	let stack: cdk.Stack;
