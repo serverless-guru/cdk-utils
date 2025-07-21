@@ -97,6 +97,32 @@ Once your pull request is merged, add a comment on the initial issue asking the 
 
 Please refer the official documentation for additional details on [how to use the bot](https://allcontributors.org/docs/en/bot/usage) or the available [contribution types](https://allcontributors.org/docs/en/emoji-key).
 
+#### All Contrtibutors CLI
+
+For those scenarios where the `all-contributors` bot is unresponsive or you want to directly add your contribution as part of thee PR.
+
+Steps to add contributions via the CLI
+<details>
+<summary>1. Add the Contribution</summary>
+
+```bash
+# Add new contributor <username>, who made a contribution of type <contribution>
+npx all-contributors add <username> <contribution>
+# Example:
+npx all-contributors add jfmengels code,doc
+```
+
+</details>
+
+<details>
+<summary>2. Regenerate the contributors table</summary>
+
+```bash
+npx all-contributors generate
+```
+
+</details>
+
 ## Finding contributions to work on
 
 Looking at the existing issues is a great way to find something to contribute on. As our projects, by default, use the default GitHub issue labels (enhancement/bug/duplicate/help wanted/invalid/question/wontfix), looking at any `help wanted` or `good first issue` labled issues is a great place to start.

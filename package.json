@@ -37,6 +37,7 @@
     "@biomejs/biome": "^2",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.14",
+    "all-contributors-cli": "^6.26.1",
     "aws-cdk-lib": "2.156.0",
     "cdk-nag": "2.36.38",
     "commit-and-tag-version": "^12",

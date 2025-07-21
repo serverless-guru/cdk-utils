@@ -19,7 +19,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
 	jsiiVersion: "~5.8.0",
 	projenrcTs: true,
 	peerDeps: ["cdk-nag"],
-	devDeps: ["@aws-cdk/assert@^2.18"],
+	devDeps: ["@aws-cdk/assert@^2.18", "all-contributors-cli"],
 
 	// Bundling, Linting and ignore configurations
 	eslint: false,
