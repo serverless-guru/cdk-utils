@@ -54,13 +54,14 @@ const project = new awscdk.AwsCdkConstructLibrary({
 			},
 		},
 	},
-
 	defaultReleaseBranch: "main",
 });
 
 project.jest!.config.transform = {
 	"^.+\\.ts$": ["ts-jest", { isolatedModules: true }] as any,
 };
+
+project.package.addField("publishConfig", { access: "public" });
 
 project.github?.addPullRequestTemplate(
 	[
